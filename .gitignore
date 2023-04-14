@@ -1,0 +1,46 @@
+# Node.js and NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.env
+
+# Build files
+build/
+dist/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.bak
+*.swp
+
+# Cache files
+.cache/
+.DS_Store
+*.log
+*.gz
+
+# Environment-specific files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Other files and directories to ignore
+*.DS_Store
+*.test.js
+*.spec.js
+*.snap
+coverage/
